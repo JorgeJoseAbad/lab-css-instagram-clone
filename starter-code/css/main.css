@@ -62,6 +62,7 @@ body {
 
 #nuevo-logo{
   position: relative;
+  left: -1%;
   height: 6.5rem;
   width: 6.5rem;
   background: radial-gradient(
