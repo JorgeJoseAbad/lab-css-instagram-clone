@@ -60,6 +60,63 @@ body {
 
 }
 
+#nuevo-logo{
+  height: 6.5rem;
+  width: 6.5rem;
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  border-radius: 30%;
+  position: relative;
+}
+
+#nuevo-logo:before{
+  content: "";
+  border: 0.4rem solid #fff;
+  border-radius: 30%;
+  width: 4.2rem;
+  height: 4.2rem;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+#nuevo-logo:after{
+  content: "";
+  border: 0.4rem solid #fff;
+  border-radius: 100%;
+  width: 1.6rem;
+  height: 1.6rem;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+span {
+  content: "";
+  background-color: white;
+  border: 0.3rem solid #fff;
+  border-radius: 100%;
+  width: 0;
+  height: 0;
+  top: 1.6rem;
+  right: 1.6rem;
+  position: absolute;
+  margin: auto;
+
+}
+
 #cuadrito img{
   display: inline;
 }
